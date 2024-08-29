@@ -9,6 +9,24 @@ body {
     background-color: #ccc;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4c4c;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+header li {
+    display: flex;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 img {
     width: 320px;
     display: block;
