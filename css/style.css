@@ -14,11 +14,15 @@ header {
     justify-content: space-between;
     background-color: #4c4c4c;
     color: #fff;
-    padding: 10px 10px;
+    padding: 20px 10px;
 }
 
 header li {
     display: flex;
+}
+
+header li ul{
+    padding: 0 20px;
 }
 
 header a {
@@ -32,3 +36,18 @@ img {
     display: block;
 }
 
+div ul {
+    display: block;
+
+}
+
+div ul li {
+    padding: 10px 20px;
+    list-style: none;
+    text-align: start;
+}
+
+div ul li img {
+    width: 320px;
+    display: block;
+}
